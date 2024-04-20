@@ -30,6 +30,6 @@ class DemoController{
 
 	@GetMapping
 	String getFullname() {
-		return "HELLO WORLD!!! \n My name is "+this.fullname+"!";
+		return "HELLO WORLD!!! \n My name is "+this.fullname+" (M1GLSI)!!!";
 	}
 }
