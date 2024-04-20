@@ -17,13 +17,13 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		logger.info("Car App started ! Goto http://localhost:8081/dic_student_name");
+		logger.info("Car App started ! Goto http://localhost:8081/M1GLSI_Ngone_DIOP");
 	}
 
 }
 
 @RestController
-@RequestMapping("/dic_student_name")
+@RequestMapping("/M1GLSI_Ngone_DIOP")
 class DemoController{
 	@Value("${fullname:NGONE}")
 	private String fullname;
